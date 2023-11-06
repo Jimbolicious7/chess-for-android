@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <string name="test">Test</string>
+    <string name="boardGrid">boardGrid</string>
+</resources>

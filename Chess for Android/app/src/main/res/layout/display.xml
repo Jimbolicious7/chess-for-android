@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="8">
+
+        <TableRow
+            android:id="@+id/tRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView android:id="@+id/c1r1" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/brook" ></ImageView>
+            <ImageView android:id="@+id/c2r1" android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bknight" ></ImageView>
+            <ImageView android:id="@+id/c3r1" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bbishop" ></ImageView>
+            <ImageView android:id="@+id/c4r1" android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bqueen" ></ImageView>
+            <ImageView android:id="@+id/c5r1" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bking" ></ImageView>
+            <ImageView android:id="@+id/c6r1" android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bbishop" ></ImageView>
+            <ImageView android:id="@+id/c7r1" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bknight" ></ImageView>
+            <ImageView android:id="@+id/c8r1" android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/brook" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/bpawn" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wpawn" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wrook" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wknight" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wbishop" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wqueen" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wking" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wbishop" ></ImageView>
+            <ImageView android:background="@color/cardview_dark_background" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wknight" ></ImageView>
+            <ImageView android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" app:srcCompat="@drawable/wrook" ></ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Undo" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AI" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Draw" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Resign" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="110px"
+                android:layout_weight="1"
+                android:text="list games"
+                android:textSize="11sp" />
+
+            <ImageView android:id="@+id/promoteRook" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:id="@+id/promoteKnight" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:id="@+id/promoteBishop" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+            <ImageView android:id="@+id/promoteQueen" android:background="@color/white" android:layout_height="100px" android:text="@string/test" android:contentDescription="@string/test" android:layout_weight="1" ></ImageView>
+
+        </TableRow>
+    </TableLayout>
+    <RelativeLayout
+        android:id="@+id/endScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="gone" >
+        <LinearLayout
+            android:id="@+id/draw"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:visibility="gone" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="160dp"
+                android:text="Draw!"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Click anywhere to reset"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/whiteWins"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:visibility="gone" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="160dp"
+                android:text="White wins!"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Click anywhere to reset"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/blackWins"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:visibility="gone" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="160dp"
+                android:text="Black Wins!"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Click anywhere to reset"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkmateWhite"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:visibility="gone" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="100dp"
+                android:lines="2"
+                android:text="Checkmate!  White wins!  Click anywhere to reset"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkmateBlack"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:visibility="gone" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="100dp"
+                android:lines="2"
+                android:text="Checkmate!  Black wins!  Click anywhere to reset"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
